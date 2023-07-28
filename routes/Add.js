@@ -26,7 +26,7 @@ router.post("/", upload.single("blogImage"), (req, res, next) => {
     if (err) throw err;
     else {
       console.log("Data Added");
-      res.redirect("http://localhost:3000");
+      res.redirect("https://blogs-front-end.vercel.app/");
     }
   });
 });
